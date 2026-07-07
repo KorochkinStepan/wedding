@@ -287,11 +287,11 @@
 
 @media screen and (max-width: 480px) {
     .hero .hero-content {
-        padding-top: 55%;
+        padding-top: 15%;
     }
     
     .hero .hero-logo-frame {
-        width: 100vw;
+        width: 150vw;
         height: 780px;
     }
 
