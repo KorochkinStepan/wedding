@@ -198,6 +198,7 @@
             <div class="col-md-6 col-md-offset-3">
                 <h3>Сможете разделить с нами этот день?</h3>
                 <p>Мы будем очень признательны, <br> если вы подтвердите своё присутствие до <b>20 июля.</b></p>
+                <p>Если вы планируете придти со своей парой, добавьте ещё имена</p>
                 <form id="rsvp-form" class="rsvp-form"
                       action="https://script.google.com/macros/s/AKfycbw6MRgSsZi2jOgW4m66pMcGccBJrUwUl8Ek09VSmsr3403Za9Oi1tnxGKqmFfxuVPc/exec"
                       method="POST">
@@ -206,11 +207,21 @@
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
                                 <i class="fa fa-user"></i><input name="name" class=""
-                                                                 placeholder="Фамилия Имя"
+                                                                 placeholder="Фамилии и Имена гостей"
                                                                  required>
                             </div>
                         </div>
+                       <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
 
+                                <i class="fa fa-users"></i>
+                                <select name="extras" required style="width: 100%; padding: 15px 55px; border: 1px solid #e6e9ea; border-radius: 5px; background: white;">
+                                    <option value="">Сможете придти?</option>
+                                    <option value="yes">Да, приду! </option>
+                                    <option value="no">Нет, не приду</option>
+                                </select>
+                            </div>
+                        </div>
                     </div>
                     <div class="row">
                         <div class="col-md-12" id="alert-wrapper"></div>
