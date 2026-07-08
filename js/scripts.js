@@ -212,7 +212,7 @@ $(document).ready(function () {
         e.preventDefault();
         var data = $(this).serialize();
 
-        $('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
+        $('#alert-wrapper').html(alert_markup('info', '<strong>Подождите..</strong> сохраняю информацию '));
 
         $.post('https://script.google.com/macros/s/AKfycbw6MRgSsZi2jOgW4m66pMcGccBJrUwUl8Ek09VSmsr3403Za9Oi1tnxGKqmFfxuVPc/exec', data)
             .done(function (data) {
